@@ -151,7 +151,7 @@ const dailyPrices = [
     26.92,
     26.96,
     27.37,
-    27.39,,
+    27.39,
     27.44,
     27.88,
     27.69,
@@ -2266,19 +2266,19 @@ const dailyPrices = [
     104.22,
     106.26,
     106.06,
-]
-var dailyPriceChanges = [];
-for (let i = 0; i < dailyPrices.length - 1; i++) {
-    dailyPriceChanges.push((dailyPriceChanges[i + 1] - dailyPriceChanges[i]) / dailyPriceChanges[i]);
-}
-const riskFreeRate = 0.015
-const annualReturns = Math.pow(dailyPriceChanges[dailyPriceChanges.length - 1] / dailyPriceChanges[0], 1 / 9) - 1;
-const volatility = stdev(dailyPriceChanges) * Math.pow(252, 0.5);
+];
+
+let dailyPriceChanges = [];
+for (let i = 0; i < dailyPrices.length - 1; i++) 
+    dailyPriceChanges.push((dailyPrices[i + 1] - dailyPrices[i]) / dailyPrices[i]);
+const riskFreeRate = 0.015;
+const annualReturns = Math.pow(dailyPrices[dailyPrices.length - 1] / dailyPrices[0], 1 / 9) - 1;
+const volatility = stdev(dailyPriceChanges) * Math.sqrt(252);
 const sharpeRatio = (annualReturns - riskFreeRate) / volatility;
 console.log(sharpeRatio);
 
+// Function to find standard deviation
 function stdev(array) {
-    const n = array.length;
-    const mean = array.reduce((a, b) => a + b) / n;
-    return Math.sqrt(array.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n);
+    const mean = array.reduce((a, b) => a + b) / array.length;
+    return Math.sqrt(array.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / array.length);
 }
