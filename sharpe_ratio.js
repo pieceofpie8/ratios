@@ -11,7 +11,7 @@ const xmlFile = readFileSync(`${process.cwd()}/treasury.xml`, 'utf8');
 const parser = new XMLParser();
 const json = parser.parse(xmlFile);
 
-let riskFreeRate = parseFloat(json.feed.entry[0].content["m:properties"]["d:BC_2MONTH"]) / 360;
+let riskFreeRate = parseFloat(json.feed.entry[0].content["m:properties"]["d:BC_2MONTH"]) / 100;
 
 // Sharpe Ratio Calculator
 let dailyPriceChanges = [];
