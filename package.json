@@ -1,0 +1,24 @@
+{
+  "name": "ratios",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "jensen's_alpha.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pieceofpie8/ratios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pieceofpie8/ratios/issues"
+  },
+  "homepage": "https://github.com/pieceofpie8/ratios#readme",
+  "dependencies": {
+    "fast-xml-parser": "^4.2.6"
+  }
+}
