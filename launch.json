@@ -1,0 +1,36 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "${userHome}/.nvm/versions/node/v18.13.0/bin/node",
+      "name": "Launch Program tsyXml2Json",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/tsyXml2Json.js"
+    },
+    {
+      /* #################################################################### */
+      "name": "xave: server/__tests__/precision.js",
+      /* #################################################################### */
+      "type": "node",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeExecutable": "${userHome}/.nvm/versions/node/v18.13.0/bin/node",
+      "outputCapture": "std",
+      "env": {
+        "NODE_OPTIONS": "--experimental-vm-modules"
+      },
+      "cwd": "${userHome}/cashr/server",
+      "program": "${userHome}/cashr/server/node_modules/jest/bin/jest.js",
+      "args": [
+        "--env=jsdom",
+        "--watch",
+        "/Users/xavie/cashr/server/__tests__/precision.js"
+      ]
+    }
+  ]
+}

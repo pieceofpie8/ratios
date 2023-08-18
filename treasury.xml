@@ -5,29 +5,29 @@
   <updated>2023-07-18T15:52:20Z</updated>
   <link rel="self" title="DailyTreasuryYieldCurveRateData" href="DailyTreasuryYieldCurveRateData"/>
 <entry>
-<title type="text"></title>
-<updated>2023-07-18T15:52:20Z</updated>
-<author><name /></author>
-<category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
-<content type="application/xml">
-<m:properties>
-<d:NEW_DATE m:type="Edm.DateTime">2023-07-03T00:00:00</d:NEW_DATE>
-<d:BC_1MONTH m:type="Edm.Double">5.27</d:BC_1MONTH>
-<d:BC_2MONTH m:type="Edm.Double">5.40</d:BC_2MONTH>
-<d:BC_3MONTH m:type="Edm.Double">5.44</d:BC_3MONTH>
-<d:BC_4MONTH m:type="Edm.Double">5.52</d:BC_4MONTH>
-<d:BC_6MONTH m:type="Edm.Double">5.53</d:BC_6MONTH>
-<d:BC_1YEAR m:type="Edm.Double">5.43</d:BC_1YEAR>
-<d:BC_2YEAR m:type="Edm.Double">4.94</d:BC_2YEAR>
-<d:BC_3YEAR m:type="Edm.Double">4.56</d:BC_3YEAR>
-<d:BC_5YEAR m:type="Edm.Double">4.19</d:BC_5YEAR>
-<d:BC_7YEAR m:type="Edm.Double">4.03</d:BC_7YEAR>
-<d:BC_10YEAR m:type="Edm.Double">3.86</d:BC_10YEAR>
-<d:BC_20YEAR m:type="Edm.Double">4.08</d:BC_20YEAR>
-<d:BC_30YEAR m:type="Edm.Double">3.87</d:BC_30YEAR>
-<d:BC_30YEARDISPLAY m:type="Edm.Double">3.87</d:BC_30YEARDISPLAY>
-</m:properties>
-</content>
+  <title type="text"></title>
+  <updated>2023-07-18T15:52:20Z</updated>
+  <author><name /></author>
+  <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+  <content type="application/xml">
+    <m:properties>
+    <d:NEW_DATE m:type="Edm.DateTime">2023-07-03T00:00:00</d:NEW_DATE>
+    <d:BC_1MONTH m:type="Edm.Double">5.27</d:BC_1MONTH>
+    <d:BC_2MONTH m:type="Edm.Double">5.40</d:BC_2MONTH>
+    <d:BC_3MONTH m:type="Edm.Double">5.44</d:BC_3MONTH>
+    <d:BC_4MONTH m:type="Edm.Double">5.52</d:BC_4MONTH>
+    <d:BC_6MONTH m:type="Edm.Double">5.53</d:BC_6MONTH>
+    <d:BC_1YEAR m:type="Edm.Double">5.43</d:BC_1YEAR>
+    <d:BC_2YEAR m:type="Edm.Double">4.94</d:BC_2YEAR>
+    <d:BC_3YEAR m:type="Edm.Double">4.56</d:BC_3YEAR>
+    <d:BC_5YEAR m:type="Edm.Double">4.19</d:BC_5YEAR>
+    <d:BC_7YEAR m:type="Edm.Double">4.03</d:BC_7YEAR>
+    <d:BC_10YEAR m:type="Edm.Double">3.86</d:BC_10YEAR>
+    <d:BC_20YEAR m:type="Edm.Double">4.08</d:BC_20YEAR>
+    <d:BC_30YEAR m:type="Edm.Double">3.87</d:BC_30YEAR>
+    <d:BC_30YEARDISPLAY m:type="Edm.Double">3.87</d:BC_30YEARDISPLAY>
+  </m:properties>
+  </content>
 </entry>
 <entry>
 <title type="text"></title>
