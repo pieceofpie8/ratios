@@ -10,8 +10,8 @@ export const template = {
         },
         unadjusted: true,
         adjusted: false,
-        end: "", // "2020-10-31",
-        start: "", // "2020-01-01",
+        end: ".", // "2020-10-31",
+        start: ".", // "2020-01-01",
         eoddata: [
           // { date: "2020-10-31", close: 0.01 },
           // { date: "2020-09-30", close: 0.01 },
