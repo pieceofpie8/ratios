@@ -14,6 +14,17 @@
     },
     {
       /* #################################################################### */
+      "name": "jason: treasuryXMLtoJSON",
+      /* #################################################################### */
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "/usr/local/bin/node",
+      "name": "Launch Program tsyXml2Json",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/tsyXml2Json.js"
+    },
+    {
+      /* #################################################################### */
       "name": "xave: server/__tests__/precision.js",
       /* #################################################################### */
       "type": "node",

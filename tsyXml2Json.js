@@ -7,21 +7,30 @@ const xmlFile = readFileSync(`${process.cwd()}/treasury.xml`, "utf8");
 const parser = new XMLParser();
 const json = parser.parse(xmlFile);
 
-let riskFreeRate =
-  parseFloat(json.feed.entry[0].content["m:properties"]["d:BC_2MONTH"]) / 100;
-// console.log("riskFreeRate", riskFreeRate);
-// console.log("template", template);
-
-// eodData = end of day Data
-let i = 0;
 let stk = [];
 Object.entries(termStructure).forEach(([ffTerm, ustTerm]) => {
   const ffJsonMarketData = JSON.parse(JSON.stringify(template));
   const eodData = ffJsonMarketData.results.history[0].eoddata;
-  json.feed.entry.forEach((e) => {
-    const equityInfo = ffJsonMarketData.results.history[0].equityinfo;
-    const Key = ffJsonMarketData.results.history[0].key;
+  const equityInfo = ffJsonMarketData.results.history[0].equityinfo;
+  const Key = ffJsonMarketData.results.history[0].key;
 
+  // Change longname
+  let longName =
+    ffTerm + " (Treasury " + ustTerm.substring(2, ustTerm.length) + ")";
+  equityInfo.longname = longName;
+
+  // Change shortname according to date
+  equityInfo.shortname = ffTerm;
+  Key.symbol = ffTerm;
+  ffJsonMarketData.results.history[0].symbolstring = ffTerm;
+
+  // Change URL
+  let URL = Key.ffUrl;
+  URL = URL.substring(0, URL.length - 11);
+  URL += ffTerm;
+  URL += ".json";
+  Key.ffUrl = URL;
+  json.feed.entry.forEach((e) => {
     // Push End of day Data
     let dd = e.content["m:properties"]["d:NEW_DATE"];
     dd = dd.substring(0, dd.length - 9);
@@ -32,31 +41,9 @@ Object.entries(termStructure).forEach(([ffTerm, ustTerm]) => {
       close: e.content["m:properties"][ustTerm],
     });
 
-    // Change longname
-    let longName =
-      ffTerm + " (Treasury " + ustTerm.substring(2, ustTerm.length) + ")";
-    equityInfo.longname = longName;
-
-    // Change shortname according to date
-    equityInfo.shortname = ffTerm;
-    Key.symbol = ffTerm;
-    ffJsonMarketData.results.history[0].symbolstring = ffTerm;
-
-    // Change URL
-    // if (ffTerm != 'UST_10Y' || ffTerm != 'UST_20Y' || ffTerm != 'UST_30Y') {
-    let URL = Key.ffUrl;
-    URL = URL.substring(0, URL.length - 11);
-    URL += ffTerm;
-    URL += ".json";
-    Key.ffUrl = URL;
-    // }
-    // Il y a un bug je ne sais pas pourquoi pour le 10, 20 et 30 year
-
     // Calculate start and end date
     if (i == 0) ffJsonMarketData.results.history[0].start = dd;
     if (i == 10) ffJsonMarketData.results.history[0].end = dd;
-
-    i++;
   });
 
   // Putting in eodData in reverse order
@@ -72,9 +59,8 @@ Object.entries(termStructure).forEach(([ffTerm, ustTerm]) => {
 
   // writeFileSync
   let file = JSON.stringify(ffJsonMarketData);
-  writeFileSync("hehe.json" + toString(i), file);
-  console.log("File created" + toString(i));
-  i = 0;
+  writeFileSync(equityInfo.shortname + ".json", file);
+  console.log("File created_" + i.toString());
 });
 
 // 1 - amend the following variables in the ffJsonMarketData object:

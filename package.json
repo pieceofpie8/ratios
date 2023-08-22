@@ -20,6 +20,6 @@
   "homepage": "https://github.com/pieceofpie8/ratios#readme",
   "dependencies": {
     "aws-xray-sdk": "^3.5.1",
-    "fast-xml-parser": "^4.2.6"
+    "fast-xml-parser": "^4.2.7"
   }
 }

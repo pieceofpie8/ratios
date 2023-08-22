@@ -5,12 +5,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      /* #################################################################### */
+      "name": "jason: treasuryXMLtoJSON",
+      /* #################################################################### */
       "type": "node",
       "request": "launch",
-      "runtimeExecutable": "${userHome}/.nvm/versions/node/v18.13.0/bin/node",
-      "name": "Launch Program tsyXml2Json",
+      "runtimeExecutable": "/usr/local/bin/node",
       "skipFiles": ["<node_internals>/**"],
-      "program": "/Users/xavie/jason/ratios/tsyXml2Json.js"
+      "program": "${workspaceFolder}/tsyXml2Json.js"
     }
   ]
 }
