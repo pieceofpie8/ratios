@@ -1,15 +1,51 @@
 import { XMLParser } from "fast-xml-parser";
 import { readFileSync, writeFileSync } from "fs";
 import { template, termStructure } from "./usTreasury.js";
+import ust1M from "./UST_1M.json" assert { type: "json" };
+import ust1Y from "./UST_1Y.json" assert { type: "json" };
+import ust2M from "./UST_2M.json" assert { type: "json" };
+import ust2Y from "./UST_2Y.json" assert { type: "json" };
+import ust3M from "./UST_3M.json" assert { type: "json" };
+import ust3Y from "./UST_3Y.json" assert { type: "json" };
+import ust4M from "./UST_4M.json" assert { type: "json" };
+import ust5Y from "./UST_5Y.json" assert { type: "json" };
+import ust6M from "./UST_6M.json" assert { type: "json" };
+import ust7Y from "./UST_7Y.json" assert { type: "json" };
+import ust10Y from "./UST_10Y.json" assert { type: "json" };
+import ust20Y from "./UST_20Y.json" assert { type: "json" };
+import ust30Y from "./UST_30Y.json" assert { type: "json" };
 
 // XML File from US Treasury to get Risk Free Rate
-const xmlFile = readFileSync(`${process.cwd()}/treasury.xml`, "utf8");
-const parser = new XMLParser();
-const json = parser.parse(xmlFile);
+for (let hehe = 10; hehe <= 10; hehe++) {
+  const xmlFile = readFileSync(
+    `${process.cwd()}/myFunction+xmlFiles/ust20` + hehe.toString() + `.xml`,
+    "utf8"
+  );
+  const parser = new XMLParser();
+  const json = parser.parse(xmlFile);
 
-let stk = [];
-Object.entries(termStructure).forEach(([ffTerm, ustTerm]) => {
-  const ffJsonMarketData = JSON.parse(JSON.stringify(template));
+  let stk = [];
+  let i = 0;
+  Object.entries(termStructure).forEach(([ffTerm, ustTerm]) => {
+    ff(ffTerm, ustTerm, json, stk, i, ust1M);
+    // ff(ffTerm, ustTerm, json, stk, i, ust1Y);
+    // ff(ffTerm, ustTerm, json, stk, i, ust2M);
+    // ff(ffTerm, ustTerm, json, stk, i, ust2Y);
+    // ff(ffTerm, ustTerm, json, stk, i, ust3M);
+    // ff(ffTerm, ustTerm, json, stk, i, ust3Y);
+    // ff(ffTerm, ustTerm, json, stk, i, ust4M);
+    // ff(ffTerm, ustTerm, json, stk, i, ust5Y);
+    // ff(ffTerm, ustTerm, json, stk, i, ust6M);
+    // ff(ffTerm, ustTerm, json, stk, i, ust7Y);
+    // ff(ffTerm, ustTerm, json, stk, i, ust10Y);
+    // ff(ffTerm, ustTerm, json, stk, i, ust20Y);
+    // ff(ffTerm, ustTerm, json, stk, i, ust30Y);
+  });
+}
+
+// Function to add data to existing files
+function ff(ffTerm, ustTerm, json, stk, i, ust) {
+  const ffJsonMarketData = ust;
   const eodData = ffJsonMarketData.results.history[0].eoddata;
   const equityInfo = ffJsonMarketData.results.history[0].equityinfo;
   const Key = ffJsonMarketData.results.history[0].key;
@@ -30,6 +66,7 @@ Object.entries(termStructure).forEach(([ffTerm, ustTerm]) => {
   URL += ffTerm;
   URL += ".json";
   Key.ffUrl = URL;
+  let startDate, endDate;
   json.feed.entry.forEach((e) => {
     // Push End of day Data
     let dd = e.content["m:properties"]["d:NEW_DATE"];
@@ -42,14 +79,16 @@ Object.entries(termStructure).forEach(([ffTerm, ustTerm]) => {
     });
 
     // Calculate start and end date
-    if (i == 0) ffJsonMarketData.results.history[0].start = dd;
-    if (i == 10) ffJsonMarketData.results.history[0].end = dd;
+    if (!startDate || dd < startDate) startDate = dd;
+    if (!endDate || dd > endDate) endDate = dd;
   });
+  ffJsonMarketData.results.history[0].start = startDate;
+  ffJsonMarketData.results.history[0].end = endDate;
 
   // Putting in eodData in reverse order
   while (stk.length) {
     let hehe = stk[stk.length - 1];
-    eodData.push(hehe);
+    ust1M.results.history[0].eoddata.push(hehe);
     stk.pop();
   }
   console.log(ffTerm, ustTerm);
@@ -57,22 +96,6 @@ Object.entries(termStructure).forEach(([ffTerm, ustTerm]) => {
   console.log(JSON.stringify(ffJsonMarketData));
   console.log("\n");
 
-  // writeFileSync
-  let file = JSON.stringify(ffJsonMarketData);
-  writeFileSync(equityInfo.shortname + ".json", file);
   console.log("File created_" + i.toString());
-});
-
-// 1 - amend the following variables in the ffJsonMarketData object:
-//     Clear! "longname" ==> "UST_2M (Treasury BC_2MONTH)", ..., "UST_30Y (Treasury BC_30YEAR)"
-//     Clear! "shortname" ==> "UST_2M", ..., "UST_30Y"
-//     Clear! "eoddata.date" ==> change date format from "2023-07-03T00:00:00" to "2023-07-03"
-//     Clear! "keys.symbol" ==> "UST_2M", ..., "UST_30Y"
-//     Almost Clear! "ffUrl" ==> "https://s3.us-east-2.amazonaws.com/debugdata.featherfinance.com/stocks/UST_[1M ... 30Y].json"
-//     Clear! "symbolstring" ==> "UST_2M", ..., "UST_30Y"
-//
-// 2 - Clear! reorder the eoddata objects in the array so that they are in DESCENDING order instead of ASCENDING order
-//
-// 3 - Clear!  enter the right start and end date in the history[0].end variable
-//
-// 4 - use writeFileSynch to output json data to files (UST_1M.json, UST_2M.json, etc.)
+  i = 0;
+}

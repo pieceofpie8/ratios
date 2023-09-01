@@ -6,7 +6,7 @@ export const handler = async (event, context) => {
   // const res = await axios.get("http://172.31.19.0:8181/status");
   // const res = await axios.get("http://webcode.me/");
   const res = await axios.get(
-    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_bill_rates&field_tdr_date_value=2022"
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_bill_rates&field_tdr_date_value=2023"
   );
   console.log(res.data);
   const xmlFile = readFileSync(`${process.cwd()}/treasury.xml`, "utf8");
