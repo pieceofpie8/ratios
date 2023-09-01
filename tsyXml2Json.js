@@ -16,7 +16,7 @@ import ust20Y from "./UST_20Y.json" assert { type: "json" };
 import ust30Y from "./UST_30Y.json" assert { type: "json" };
 
 // XML File from US Treasury to get Risk Free Rate
-for (let hehe = 10; hehe <= 10; hehe++) {
+for (let hehe = 11; hehe <= 23; hehe++) {
   const xmlFile = readFileSync(
     `${process.cwd()}/myFunction+xmlFiles/ust20` + hehe.toString() + `.xml`,
     "utf8"
@@ -26,22 +26,27 @@ for (let hehe = 10; hehe <= 10; hehe++) {
 
   let stk = [];
   let i = 0;
-  Object.entries(termStructure).forEach(([ffTerm, ustTerm]) => {
-    ff(ffTerm, ustTerm, json, stk, i, ust1M);
-    // ff(ffTerm, ustTerm, json, stk, i, ust1Y);
-    // ff(ffTerm, ustTerm, json, stk, i, ust2M);
-    // ff(ffTerm, ustTerm, json, stk, i, ust2Y);
-    // ff(ffTerm, ustTerm, json, stk, i, ust3M);
-    // ff(ffTerm, ustTerm, json, stk, i, ust3Y);
-    // ff(ffTerm, ustTerm, json, stk, i, ust4M);
-    // ff(ffTerm, ustTerm, json, stk, i, ust5Y);
-    // ff(ffTerm, ustTerm, json, stk, i, ust6M);
-    // ff(ffTerm, ustTerm, json, stk, i, ust7Y);
-    // ff(ffTerm, ustTerm, json, stk, i, ust10Y);
-    // ff(ffTerm, ustTerm, json, stk, i, ust20Y);
-    // ff(ffTerm, ustTerm, json, stk, i, ust30Y);
-  });
+  ff("UST_1M", "d:BC_1MONTH", json, stk, i, ust1M);
+  ff("UST_2M", "d:BC_2MONTH", json, stk, i, ust2M);
+  ff("UST_3M", "d:BC_3MONTH", json, stk, i, ust3M);
+  ff("UST_4M", "d:BC_4MONTH", json, stk, i, ust4M);
+  ff("UST_6M", "d:BC_6MONTH", json, stk, i, ust6M);
+  ff("UST_1Y", "d:BC_1YEAR", json, stk, i, ust1Y);
+  ff("UST_2Y", "d:BC_2YEAR", json, stk, i, ust2Y);
+  ff("UST_3Y", "d:BC_3YEAR", json, stk, i, ust3Y);
+  ff("UST_5Y", "d:BC_5YEAR", json, stk, i, ust5Y);
+  ff("UST_7Y", "d:BC_7YEAR", json, stk, i, ust7Y);
+  ff("UST_10Y", "d:BC_10YEAR", json, stk, i, ust10Y);
+  ff("UST_20Y", "d:BC_20YEAR", json, stk, i, ust20Y);
+  ff("UST_30Y", "d:BC_30YEAR", json, stk, i, ust30Y);
 }
+
+console.log(ust1M.results.history[0].eoddata.length);
+console.log(ust2M.results.history[0].eoddata.length);
+console.log(ust3M.results.history[0].eoddata.length);
+console.log(ust30Y.results.history[0].eoddata.length);
+
+//console.log(" \n\n\n\nEND \n\n\n\n", JSON.stringify(UST_1M_JSON));
 
 // Function to add data to existing files
 function ff(ffTerm, ustTerm, json, stk, i, ust) {
@@ -88,14 +93,20 @@ function ff(ffTerm, ustTerm, json, stk, i, ust) {
   // Putting in eodData in reverse order
   while (stk.length) {
     let hehe = stk[stk.length - 1];
-    ust1M.results.history[0].eoddata.push(hehe);
+    ust.results.history[0].eoddata.push(hehe);
     stk.pop();
   }
-  console.log(ffTerm, ustTerm);
-  console.log("\n");
-  console.log(JSON.stringify(ffJsonMarketData));
-  console.log("\n");
+  const sortedUst = ust.results.history[0].eoddata.sort((a, b) => {
+    if (a.date < b.date) return 1;
+    if (a.date > b.date) return -1;
+    return 0;
+  });
 
-  console.log("File created_" + i.toString());
+  // console.log(ffTerm, ustTerm);
+  // console.log("\n");
+  // console.log(JSON.stringify(sortedUst1M));
+  // console.log("\n");
+
+  // console.log("File created_" + i.toString());
   i = 0;
 }

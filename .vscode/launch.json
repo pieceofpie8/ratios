@@ -13,6 +13,16 @@
       "runtimeExecutable": "/usr/local/bin/node",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/tsyXml2Json.js"
+    },
+    {
+      /* #################################################################### */
+      "name": "xavier: tsyXml2Json",
+      /* #################################################################### */
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "/Users/xavie/.nvm/versions/node/v18.13.0/bin/node",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/tsyXml2Json.js"
     }
   ]
 }
