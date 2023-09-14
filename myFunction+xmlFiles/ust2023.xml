@@ -4,11 +4,11 @@
 	xmlns="http://www.w3.org/2005/Atom" xml:base="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml">
 	<title type="text">DailyTreasuryYieldCurveRateData</title>
 	<id>https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml-item?data=daily_treasury_yield_curve</id>
-	<updated>2023-08-29T16:00:01Z</updated>
+	<updated>2023-09-01T15:55:23Z</updated>
 	<link rel="self" title="DailyTreasuryYieldCurveRateData" href="DailyTreasuryYieldCurveRateData"/>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -35,7 +35,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -62,7 +62,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -89,7 +89,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -116,7 +116,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -143,7 +143,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -170,7 +170,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -197,7 +197,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -224,7 +224,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -251,7 +251,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -278,7 +278,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -305,7 +305,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -332,7 +332,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -359,7 +359,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -386,7 +386,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -413,7 +413,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -440,7 +440,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -467,7 +467,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -494,7 +494,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -521,7 +521,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -548,7 +548,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -575,7 +575,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -602,7 +602,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -629,7 +629,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -656,7 +656,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -683,7 +683,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -710,7 +710,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -737,7 +737,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -764,7 +764,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -791,7 +791,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -818,7 +818,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -845,7 +845,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -872,7 +872,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -899,7 +899,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -926,7 +926,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -953,7 +953,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -980,7 +980,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1007,7 +1007,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1034,7 +1034,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1061,7 +1061,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1088,7 +1088,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1115,7 +1115,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1142,7 +1142,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1169,7 +1169,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1196,7 +1196,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1223,7 +1223,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1250,7 +1250,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1277,7 +1277,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1304,7 +1304,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1331,7 +1331,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1358,7 +1358,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1385,7 +1385,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1412,7 +1412,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1439,7 +1439,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1466,7 +1466,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1493,7 +1493,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1520,7 +1520,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1547,7 +1547,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1574,7 +1574,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1601,7 +1601,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1628,7 +1628,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1655,7 +1655,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1682,7 +1682,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1709,7 +1709,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1736,7 +1736,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1763,7 +1763,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1790,7 +1790,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1817,7 +1817,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1844,7 +1844,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1871,7 +1871,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1898,7 +1898,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1925,7 +1925,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1952,7 +1952,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -1979,7 +1979,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2006,7 +2006,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2033,7 +2033,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2060,7 +2060,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2087,7 +2087,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2114,7 +2114,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2141,7 +2141,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2168,7 +2168,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2195,7 +2195,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2222,7 +2222,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2249,7 +2249,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2276,7 +2276,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2303,7 +2303,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2330,7 +2330,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2357,7 +2357,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2384,7 +2384,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2411,7 +2411,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2438,7 +2438,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2465,7 +2465,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2492,7 +2492,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2519,7 +2519,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2546,7 +2546,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2573,7 +2573,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2600,7 +2600,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2627,7 +2627,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2654,7 +2654,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2681,7 +2681,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2708,7 +2708,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2735,7 +2735,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2762,7 +2762,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2789,7 +2789,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2816,7 +2816,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2843,7 +2843,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2870,7 +2870,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2897,7 +2897,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2924,7 +2924,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2951,7 +2951,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -2978,7 +2978,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3005,7 +3005,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3032,7 +3032,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3059,7 +3059,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3086,7 +3086,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3113,7 +3113,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3140,7 +3140,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3167,7 +3167,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3194,7 +3194,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3221,7 +3221,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3248,7 +3248,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3275,7 +3275,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3302,7 +3302,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3329,7 +3329,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3356,7 +3356,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3383,7 +3383,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3410,7 +3410,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3437,7 +3437,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3464,7 +3464,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3491,7 +3491,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3518,7 +3518,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3545,7 +3545,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3572,7 +3572,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3599,7 +3599,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3626,7 +3626,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3653,7 +3653,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3680,7 +3680,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3707,7 +3707,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3734,7 +3734,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3761,7 +3761,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3788,7 +3788,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3815,7 +3815,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3842,7 +3842,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3869,7 +3869,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3896,7 +3896,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3923,7 +3923,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3950,7 +3950,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -3977,7 +3977,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4004,7 +4004,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4031,7 +4031,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4058,7 +4058,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4085,7 +4085,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4112,7 +4112,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4139,7 +4139,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4166,7 +4166,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4193,7 +4193,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4220,7 +4220,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4247,7 +4247,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4274,7 +4274,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4301,7 +4301,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4328,7 +4328,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4355,7 +4355,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4382,7 +4382,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4409,7 +4409,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4436,7 +4436,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4463,7 +4463,7 @@
 	</entry>
 	<entry>
 		<title type="text"/>
-		<updated>2023-08-29T16:00:01Z</updated>
+		<updated>2023-09-01T15:55:23Z</updated>
 		<author>
 			<name/>
 		</author>
@@ -4485,6 +4485,87 @@
 				<d:BC_20YEAR m:type="Edm.Double">4.42</d:BC_20YEAR>
 				<d:BC_30YEAR m:type="Edm.Double">4.23</d:BC_30YEAR>
 				<d:BC_30YEARDISPLAY m:type="Edm.Double">4.23</d:BC_30YEARDISPLAY>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<title type="text"/>
+		<updated>2023-09-01T15:55:23Z</updated>
+		<author>
+			<name/>
+		</author>
+		<category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NEW_DATE m:type="Edm.DateTime">2023-08-30T00:00:00</d:NEW_DATE>
+				<d:BC_1MONTH m:type="Edm.Double">5.55</d:BC_1MONTH>
+				<d:BC_2MONTH m:type="Edm.Double">5.53</d:BC_2MONTH>
+				<d:BC_3MONTH m:type="Edm.Double">5.56</d:BC_3MONTH>
+				<d:BC_4MONTH m:type="Edm.Double">5.60</d:BC_4MONTH>
+				<d:BC_6MONTH m:type="Edm.Double">5.51</d:BC_6MONTH>
+				<d:BC_1YEAR m:type="Edm.Double">5.39</d:BC_1YEAR>
+				<d:BC_2YEAR m:type="Edm.Double">4.90</d:BC_2YEAR>
+				<d:BC_3YEAR m:type="Edm.Double">4.57</d:BC_3YEAR>
+				<d:BC_5YEAR m:type="Edm.Double">4.27</d:BC_5YEAR>
+				<d:BC_7YEAR m:type="Edm.Double">4.22</d:BC_7YEAR>
+				<d:BC_10YEAR m:type="Edm.Double">4.12</d:BC_10YEAR>
+				<d:BC_20YEAR m:type="Edm.Double">4.42</d:BC_20YEAR>
+				<d:BC_30YEAR m:type="Edm.Double">4.23</d:BC_30YEAR>
+				<d:BC_30YEARDISPLAY m:type="Edm.Double">4.23</d:BC_30YEARDISPLAY>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<title type="text"/>
+		<updated>2023-09-01T15:55:23Z</updated>
+		<author>
+			<name/>
+		</author>
+		<category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NEW_DATE m:type="Edm.DateTime">2023-08-31T00:00:00</d:NEW_DATE>
+				<d:BC_1MONTH m:type="Edm.Double">5.52</d:BC_1MONTH>
+				<d:BC_2MONTH m:type="Edm.Double">5.55</d:BC_2MONTH>
+				<d:BC_3MONTH m:type="Edm.Double">5.56</d:BC_3MONTH>
+				<d:BC_4MONTH m:type="Edm.Double">5.61</d:BC_4MONTH>
+				<d:BC_6MONTH m:type="Edm.Double">5.48</d:BC_6MONTH>
+				<d:BC_1YEAR m:type="Edm.Double">5.37</d:BC_1YEAR>
+				<d:BC_2YEAR m:type="Edm.Double">4.85</d:BC_2YEAR>
+				<d:BC_3YEAR m:type="Edm.Double">4.54</d:BC_3YEAR>
+				<d:BC_5YEAR m:type="Edm.Double">4.23</d:BC_5YEAR>
+				<d:BC_7YEAR m:type="Edm.Double">4.19</d:BC_7YEAR>
+				<d:BC_10YEAR m:type="Edm.Double">4.09</d:BC_10YEAR>
+				<d:BC_20YEAR m:type="Edm.Double">4.39</d:BC_20YEAR>
+				<d:BC_30YEAR m:type="Edm.Double">4.20</d:BC_30YEAR>
+				<d:BC_30YEARDISPLAY m:type="Edm.Double">4.20</d:BC_30YEARDISPLAY>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<title type="text"/>
+		<updated>2023-09-01T15:55:23Z</updated>
+		<author>
+			<name/>
+		</author>
+		<category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<content type="application/xml">
+			<m:properties>
+				<d:NEW_DATE m:type="Edm.DateTime">2023-09-01T00:00:00</d:NEW_DATE>
+				<d:BC_1MONTH m:type="Edm.Double">5.51</d:BC_1MONTH>
+				<d:BC_2MONTH m:type="Edm.Double">5.55</d:BC_2MONTH>
+				<d:BC_3MONTH m:type="Edm.Double">5.53</d:BC_3MONTH>
+				<d:BC_4MONTH m:type="Edm.Double">5.58</d:BC_4MONTH>
+				<d:BC_6MONTH m:type="Edm.Double">5.47</d:BC_6MONTH>
+				<d:BC_1YEAR m:type="Edm.Double">5.36</d:BC_1YEAR>
+				<d:BC_2YEAR m:type="Edm.Double">4.87</d:BC_2YEAR>
+				<d:BC_3YEAR m:type="Edm.Double">4.57</d:BC_3YEAR>
+				<d:BC_5YEAR m:type="Edm.Double">4.29</d:BC_5YEAR>
+				<d:BC_7YEAR m:type="Edm.Double">4.27</d:BC_7YEAR>
+				<d:BC_10YEAR m:type="Edm.Double">4.18</d:BC_10YEAR>
+				<d:BC_20YEAR m:type="Edm.Double">4.48</d:BC_20YEAR>
+				<d:BC_30YEAR m:type="Edm.Double">4.29</d:BC_30YEAR>
+				<d:BC_30YEARDISPLAY m:type="Edm.Double">4.29</d:BC_30YEARDISPLAY>
 			</m:properties>
 		</content>
 	</entry>

@@ -45,6 +45,7 @@ console.log(ust1M.results.history[0].eoddata.length);
 console.log(ust2M.results.history[0].eoddata.length);
 console.log(ust3M.results.history[0].eoddata.length);
 console.log(ust30Y.results.history[0].eoddata.length);
+console.log(JSON.stringify(ust1M));
 
 //console.log(" \n\n\n\nEND \n\n\n\n", JSON.stringify(UST_1M_JSON));
 
@@ -72,6 +73,19 @@ function ff(ffTerm, ustTerm, json, stk, i, ust) {
   URL += ".json";
   Key.ffUrl = URL;
   let startDate, endDate;
+
+  let dd =
+    json.feed.entry[json.feed.entry.length - 1].content["m:properties"][
+      "d:NEW_DATE"
+    ];
+  dd = dd.substring(0, dd.length - 9);
+  eodData.push({
+    date: dd,
+    close: json.feed.entry[0].content["m:properties"][ustTerm],
+  });
+  endDate = dd;
+
+  /*
   json.feed.entry.forEach((e) => {
     // Push End of day Data
     let dd = e.content["m:properties"]["d:NEW_DATE"];
@@ -87,6 +101,8 @@ function ff(ffTerm, ustTerm, json, stk, i, ust) {
     if (!startDate || dd < startDate) startDate = dd;
     if (!endDate || dd > endDate) endDate = dd;
   });
+  */
+
   ffJsonMarketData.results.history[0].start = startDate;
   ffJsonMarketData.results.history[0].end = endDate;
 
