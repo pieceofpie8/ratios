@@ -7,15 +7,9 @@ const s3 = new AWS.S3();
 
 export const handler = async (event) => {
   try {
-    // context.callbackWaitsForEmptyEventLoop = false;
     const res = await axios.get(
       "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2023"
     );
-    // const json = res.data;
-
-    // const parser = new XMLParser();
-    // const json = parser.parse(res);
-
     let json;
     parseString(res.data, (err, result) => {
       if (err) {
@@ -23,17 +17,6 @@ export const handler = async (event) => {
       }
       json = result;
     });
-
-    // Now you can access json.feed.entry
-    // console.log(json.feed.entry[0], "IS THE FIRST ENTRY");
-
-    // console.log(JSON.stringify(json, null, 2), "IS THE STRINGIFY JSON FILE");
-    // console.log(res, " IS THE RESULT OF AXIOS!!!");
-    // console.log(json, " IS THE JSON FILE FOR ANALYSIS!!!");
-    // console.log(res.feed, " IS THE FEED FOR RES");
-    // console.log(json.feed, " IS THE FEED FOR JSON");
-    // console.log(json["entry"][0], "IS THE ENTRY");
-    // console.log();
 
     // Specify the S3 bucket and file keys
     const bucketName = "ust-ff-jason";
@@ -76,8 +59,22 @@ export const handler = async (event) => {
       jsondata20Y,
       jsonData30Y,
     ] = await Promise.all(s3Promises);
+
     let stk = [];
     ff("UST_1M", "d:BC_1MONTH", json, stk, jsondata1M);
+    ff("UST_1Y", "d:BC_1YEAR", json, stk, jsondata1Y);
+    ff("UST_2M", "d:BC_2MONTH", json, stk, jsondata2M);
+    ff("UST_2Y", "d:BC_2YEAR", json, stk, jsondata2Y);
+    ff("UST_3M", "d:BC_3MONTH", json, stk, jsondata3M);
+    ff("UST_3Y", "d:BC_3YEAR", json, stk, jsondata3Y);
+    ff("UST_4M", "d:BC_4MONTH", json, stk, jsondata4M);
+    ff("UST_5Y", "d:BC_5YEAR", json, stk, jsondata5Y);
+    ff("UST_6M", "d:BC_6MONTH", json, stk, jsondata6M);
+    ff("UST_7Y", "d:BC_7YEAR", json, stk, jsondata7Y);
+    ff("UST_10Y", "d:BC_10YEAR", json, stk, jsondata10Y);
+    ff("UST_20Y", "d:BC_20YEAR", json, stk, jsondata20Y);
+    ff("UST_30Y", "d:BC_30YEAR", json, stk, jsonData30Y);
+
     function ff(ffTerm, ustTerm, json, stk, ffJsonMarketData) {
       const eodData = ffJsonMarketData.results.history[0].eoddata;
       const equityInfo = ffJsonMarketData.results.history[0].equityinfo;
