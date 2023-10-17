@@ -23,6 +23,26 @@
       "runtimeExecutable": "/Users/xavie/.nvm/versions/node/v18.13.0/bin/node",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/tsyXml2Json.js"
+    },
+    {
+      /* #################################################################### */
+      "name": "jason: updateUst",
+      /* #################################################################### */
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "/usr/local/bin/node",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/updateUst.js"
+    }
+    {
+      /* #################################################################### */
+      "name": "jason: myFunction_index.mjs",
+      /* #################################################################### */
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "/usr/local/bin/node",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/myFunction+xmlFiles/index.mjs"
     }
   ]
 }

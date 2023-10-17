@@ -101,8 +101,6 @@ export const handler = async (event) => {
       Key.ffUrl = URL;
       let startDate, endDate;
 
-      console.log("HEY!!!");
-
       let dd =
         json.feed.entry[json.feed.entry.length - 1].content[0][
           "m:properties"
